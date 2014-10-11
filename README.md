@@ -4,4 +4,4 @@ Feel free to reuse part of the code for your own project. I created this section
 
 
 01 - Running Activity from different projects
-[Read more words!](01-Running Activity from different projects/more_words.md)
+[Read more words!](01-Running Activity from different projects/README.md)
