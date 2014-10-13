@@ -1,6 +1,5 @@
 package com.example.testlinking2;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -8,7 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.testlinking1.MainActivity;
+import com.riandy.flexiblealertscheduling.Test;
 
 public class MainPage extends ActionBarActivity {
 
@@ -22,8 +21,10 @@ public class MainPage extends ActionBarActivity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent in = new Intent(getApplicationContext(),MainActivity.class);
-				startActivity(in);
+				//Intent in = new Intent(getApplicationContext(),AlarmListActivity1.class);
+				//int go;
+				//startActivity(in);
+				com.riandy.flexiblealertscheduling.Test test = new Test(getApplicationContext(),"hello");
 			}
 		});
 	}

@@ -9,8 +9,19 @@
     tools:context="com.example.testlinking1.MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I am from Test 1 App" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="82dp"
+        android:text="Button" />
 
 </RelativeLayout>

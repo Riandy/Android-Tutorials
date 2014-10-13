@@ -1091,10 +1091,11 @@ containing a value of this type.
         public static int action_menu_divider=0x7f050016;
         public static int action_menu_presenter=0x7f050017;
         public static int action_mode_close_button=0x7f050024;
-        public static int action_settings=0x7f05003c;
+        public static int action_settings=0x7f05003e;
         public static int activity_chooser_view_content=0x7f050025;
         public static int always=0x7f05000b;
         public static int beginning=0x7f050011;
+        public static int button1=0x7f05003d;
         public static int checkbox=0x7f05002d;
         public static int collapseActionView=0x7f05000d;
         public static int default_activity_button=0x7f050028;
@@ -1136,6 +1137,7 @@ containing a value of this type.
         public static int split_action_bar=0x7f05001e;
         public static int submit_area=0x7f050039;
         public static int tabMode=0x7f050002;
+        public static int textView1=0x7f05003c;
         public static int title=0x7f05002b;
         public static int top_action_bar=0x7f050020;
         public static int up=0x7f050021;
@@ -1192,11 +1194,13 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static int abc_search_view=0x7f030016;
         public static int abc_simple_decor=0x7f030017;
-        public static int activity_main=0x7f030018;
-        public static int support_simple_spinner_dropdown_item=0x7f030019;
+        public static int activity_activity2=0x7f030018;
+        public static int activity_main=0x7f030019;
+        public static int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
-        public static int main=0x7f0c0000;
+        public static int activity2=0x7f0c0000;
+        public static int main=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1242,6 +1246,7 @@ containing a value of this type.
         public static int action_settings=0x7f0a000f;
         public static int app_name=0x7f0a000d;
         public static int hello_world=0x7f0a000e;
+        public static int title_activity_activity2=0x7f0a0010;
     }
     public static final class style {
         /** 
